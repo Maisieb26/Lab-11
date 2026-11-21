@@ -78,3 +78,7 @@ for(i in 1:nrow(event_table)) { #For every row in the event table
 }
 
 head(event_table)
+
+
+# Tried to create alpha, but we were getting stuck on how to keep track of the cumulative inventory 
+# and making sure that there are bikes at the start station.
